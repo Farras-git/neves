@@ -1,0 +1,86 @@
+@media screen and (max-width : 1200px) {
+    #hero p {
+        font-size: .9rem;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    
+   
+}
+
+@media screen and (max-width : 768px) {
+    .social-icon {
+        
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .btn-custom1 {
+        width: 70%;
+        
+    }
+
+    #hero row {
+        padding-bottom: 80px;
+    }
+
+    #hero img {
+        width: 60%;
+    }
+
+    #about p {
+        text-align: justify !important;
+    }
+
+    #skill .card h3 {
+        font-size: 1.3rem;
+    }
+
+    #skill .card p {
+        font-size: 1rem;
+    }
+
+    #skill .front {
+        margin-top: 20px;
+    }
+
+    #skill .card {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 20px;
+    }
+
+    #sertifikat .linkedin {
+        font-size: .9rem;
+    }
+
+    #hero .social-text {
+        font-size: .9rem !important;
+    }
+    
+}
+
+@media screen and (max-width : 576px) {
+   hr {
+    width: 75%;
+   }
+
+   h1 {
+    font-size: 1.8rem !important;
+
+   }
+
+   footer p {
+    font-size: .8rem;
+   }
+
+}
+
+@media screen and (max-width : 350px) {
+    #portofolio .col-md-12 {
+        flex-direction: column;
+    }
+}
